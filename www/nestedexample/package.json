@@ -5,7 +5,7 @@
         "npm": ">=1.4.0"
     },
     "dependencies": {
-        "gulp": "3.9.0",
+        "gulp": "5.0.0",
         "guanlecoja": "~0.5.3"
     }
 }
