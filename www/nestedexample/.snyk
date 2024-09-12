@@ -1,0 +1,64 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - guanlecoja > karma > socket.io > socket.io-parser > debug:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:debug:20170905'
+        path: guanlecoja > karma > socket.io > socket.io-parser > debug
+    - guanlecoja > karma > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          guanlecoja > karma > socket.io > socket.io-client > socket.io-parser >
+          debug
+  'npm:mime:20170907':
+    - guanlecoja > gulp-bower-deps > bower > request > form-data > mime:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:mime:20170907'
+        path: guanlecoja > gulp-bower-deps > bower > request > form-data > mime
+    - guanlecoja > gulp-less > less > request > form-data > mime:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:mime:20170907'
+        path: guanlecoja > gulp-less > less > request > form-data > mime
+  'npm:ms:20170412':
+    - guanlecoja > serve-static > send > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > serve-static > send > debug > ms
+    - guanlecoja > karma > socket.io > socket.io-parser > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > karma > socket.io > socket.io-parser > debug > ms
+    - guanlecoja > karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          guanlecoja > karma > socket.io > socket.io-adapter > socket.io-parser
+          > debug > ms
+    - guanlecoja > karma > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          guanlecoja > karma > socket.io > socket.io-client > socket.io-parser >
+          debug > ms
+    - guanlecoja > karma > socket.io > engine.io > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > karma > socket.io > engine.io > debug > ms
+    - guanlecoja > karma > socket.io > socket.io-adapter > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > karma > socket.io > socket.io-adapter > debug > ms
+    - guanlecoja > karma > socket.io > socket.io-client > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > karma > socket.io > socket.io-client > debug > ms
+    - guanlecoja > karma > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2024-09-12T15:41:46.017Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          guanlecoja > karma > socket.io > socket.io-client > engine.io-client >
+          debug > ms
